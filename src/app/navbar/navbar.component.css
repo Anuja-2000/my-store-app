@@ -1,0 +1,30 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a8c3f5;
+}
+li{
+    display: inline;
+    float: left;
+}
+li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+li a:hover{
+    color: #dbebdb;
+    background-color: #042c77;
+}
+.active{
+    color: #dbebdb;
+    background-color: #042c77;
+}
+li :first-child:hover{
+    background-color: #a8c3f5;
+}
